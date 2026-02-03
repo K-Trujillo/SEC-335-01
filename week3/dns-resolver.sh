@@ -6,5 +6,5 @@ dns=$2
 echo "dns resolution for ${netprefix}"
 for i in {1..254}; do
         ip="${netprefix}.$i" 
-        nslookup "$ip" "$dns" #| grep -v "can't find" | sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//'
+        nslookup "$ip" "$dns" | grep "name" #| grep -v "can't find" | sed -e 's/^[[:space:]]*//;s/[[:space:]]*$//'
 done
