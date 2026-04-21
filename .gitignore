@@ -5,6 +5,8 @@
 /week5/samwise.mangled.txt
 /week5/secondwordlist.txt
 /week5/*.mangled.txt
+/week5/hydra.restore
 /week7/rockyPlist.txt
+/week9/sqli-labs-php7/sql-connections/db-creds.inc
 #autogit.sh
 
