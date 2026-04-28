@@ -1,0 +1,2 @@
+barliman:x:1001:1001::/home/barliman:/bin/sh
+samwise:x:1002:1002::/home/samwise:/bin/sh
